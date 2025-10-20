@@ -6,31 +6,31 @@ export function registerTools(server: McpServer, contentReader: ContentReader) {
     {
       name: 'apply_writing_guide',
       title: 'Apply Writing Guide',
-      description: 'Applies the writing guide to the text.',
+      description: 'Uses the writing guide and usage protocol for creating high-quality technical content. This guide provides systematic principles for narrative structure, flow, style, and technical accuracy.',
       promptFile: 'guide-llm.md',
     },
     {
       name: 'apply_editing_codes',
       title: 'Apply Editing Codes',
-      description: 'Applies editing codes to the text.',
+      description: 'Uses editing codes documentation and usage protocol for editing texts. These semantic editing marks provide a standardized framework for content review with a teaching/learning focus.',
       promptFile: 'codes-llm.md',
     },
     {
       name: 'generate_meta_info',
       title: 'Generate Meta Info',
-      description: 'Generates meta information for the text.',
+      description: 'Uses the Web Content Meta Information Generation System for creating optimized article titles, meta titles, meta descriptions, and slugs for web content with proper keyword placement and search intent analysis.',
       promptFile: 'meta-llm.md',
     },
     {
       name: 'on_page_seo_guide',
       title: 'On-Page SEO Guide',
-      description: 'Applies the on-page SEO guide to the text.',
+      description: 'Uses the On-Page SEO Optimization Guide for comprehensive web content optimization, covering meta content, keyword research, content depth, search intent alignment, internal linking, and structured data.',
       promptFile: 'on-page-seo-guide.md',
     },
     {
       name: 'product_value_map',
       title: 'Product Value Map',
-      description: 'Applies the product value map to the text.',
+      description: 'Uses the Product Communications Value Map Generation System for Product Positioning, including taglines, position statements, personas, value cases, and feature categorization in a structured hierarchy.',
       promptFile: 'product-value-map-llm.md',
     },
   ];

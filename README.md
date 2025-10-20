@@ -1,61 +1,13 @@
-# Basic MCP Server
+# Writer MCP
 
-A minimal Model Context Protocol (MCP) server demonstrating tools, resources, and prompts.
+Writer MCP offers a comprehensive suite of tools for technical marketing content creation, optimization, and product positioning based on Open Strategy Partners' proven methodologies. More about the Open Strategy Partners frameworks can be found at [openstrategypartners.com](https://openstrategypartners.com). This MCP is not built by Open Strategy Partners, but much love and thanks for their invaluable frameworks and resources that made this possible.
 
-Built with [Smithery SDK](https://smithery.ai/docs)
+## Features
 
-## Prerequisites
-
-- **Smithery API key**: Get yours at [smithery.ai/account/api-keys](https://smithery.ai/account/api-keys)
-
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Start development server:
-   ```bash
-   npm run dev
-   ```
-
-Try the `hello` tool, `history://hello-world` resource, or `greet` prompt.
-
-## Development
-
-Your code is organized as:
-- `src/index.ts` - MCP server with tools, resources, and prompts
-- `smithery.yaml` - Runtime specification
-
-Edit `src/index.ts` to add your own tools, resources, and prompts.
-
-## Build
-
-```bash
-npm run build
-```
-
-Creates bundled server in `.smithery/`
-
-## Deploy
-
-Ready to deploy? Push your code to GitHub and deploy to Smithery:
-
-1. Create a new repository at [github.com/new](https://github.com/new)
-
-2. Initialize git and push to GitHub:
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git push -u origin main
-   ```
-
-3. Deploy your server to Smithery at [smithery.ai/new](https://smithery.ai/new)
-
-## Learn More
-
-- [Smithery Docs](https://smithery.ai/docs)
-- [MCP Protocol](https://modelcontextprotocol.io)
+- **Apply Writing Guide**: Uses the writing guide and usage protocol for creating high-quality technical content. This guide provides systematic principles for narrative structure, flow, style, and technical accuracy.
+- **Apply Editing Codes**: Uses editing codes documentation and usage protocol for editing texts. These semantic editing marks provide a standardized framework for content review with a teaching/learning focus.
+- **Generate Meta Info**: Uses the Web Content Meta Information Generation System for creating optimized article
+- titles, meta titles, meta descriptions, and slugs for web content with proper keyword placement and search intent analysis.
+- **On-Page SEO Guide**: Uses the On-Page SEO Optimization Guide for comprehensive web content optimization, covering meta content, keyword research, content depth, search intent alignment, internal linking, and structured data.
+- **Product Value Map**: Uses the Product Communications Value Map Generation System for Product Positioning, including taglines, position statements, personas, value cases, and feature categorization in a structured hierarchy.
 
