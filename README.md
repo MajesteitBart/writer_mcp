@@ -1,4 +1,5 @@
 # Writer MCP
+[![smithery badge](https://smithery.ai/badge/@MajesteitBart/writer_mcp)](https://smithery.ai/server/@MajesteitBart/writer_mcp)
 
 Writer MCP offers a comprehensive suite of tools for technical marketing content creation, optimization, and product positioning based on Open Strategy Partners' proven methodologies. More about the Open Strategy Partners frameworks can be found at [openstrategypartners.com](https://openstrategypartners.com). This MCP is not built by Open Strategy Partners, but much love and thanks for their invaluable frameworks and resources that made this possible.
 
@@ -11,3 +12,10 @@ Writer MCP offers a comprehensive suite of tools for technical marketing content
 - **On-Page SEO Guide**: Uses the On-Page SEO Optimization Guide for comprehensive web content optimization, covering meta content, keyword research, content depth, search intent alignment, internal linking, and structured data.
 - **Product Value Map**: Uses the Product Communications Value Map Generation System for Product Positioning, including taglines, position statements, personas, value cases, and feature categorization in a structured hierarchy.
 
+### Installing via Smithery
+
+To install Technical Content Writer automatically via [Smithery](https://smithery.ai/server/@MajesteitBart/writer_mcp):
+
+```bash
+npx -y @smithery/cli install @MajesteitBart/writer_mcp
+```
