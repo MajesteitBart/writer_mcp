@@ -1,17 +1,22 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import guideLlm from './guideLlm';
+import codesLlm from './codesLlm';
+import metaLlm from './metaLlm';
+import onPageSeoGuide from './onPageSeoGuide';
+import productValueMapLlm from './productValueMapLlm';
 
 export class ContentReader {
-  private promptsDir: string;
-
-  constructor() {
-    this.promptsDir = path.join(__dirname, '..', '..', '..', 'prompts');
-  }
+  private prompts: Record<string, string> = {
+    'guide-llm.md': guideLlm,
+    'meta-llm.md': metaLlm,
+    'codes-llm.md': codesLlm,
+    'on-page-seo-guide.md': onPageSeoGuide,
+    'product-value-map-llm.md': productValueMapLlm,
+  };
 
   public readPrompt(fileName: string): string {
-    const filePath = path.join(this.promptsDir, fileName);
-    if (fs.existsSync(filePath)) {
-      return fs.readFileSync(filePath, 'utf-8');
+    const content = this.prompts[fileName];
+    if (content) {
+      return content;
     }
     throw new Error(`Prompt file not found: ${fileName}`);
   }
